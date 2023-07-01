@@ -1,0 +1,14 @@
+{
+  "name": "darwish-functions",
+  "version": "1.0.0",
+  "description": "some-functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darwish",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.9.0"
+  }
+}
