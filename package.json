@@ -2,7 +2,7 @@
   "name": "darwish-functions",
   "version": "1.0.1",
   "description": "some-functions",
-  "main": "index.js",
+  "main": "index.ts",
   "homepage": "https://github.com/LonelyFellas/darwish-functions",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

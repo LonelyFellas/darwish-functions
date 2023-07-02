@@ -5,7 +5,7 @@ import { isURL } from 'validator/validator';
  * @param url 接受一个合法URL
  * @returns
  */
-export default function operateURL(url: Darwish.URL) {
+export default function operateURL(url: DF.URL) {
   const isValidURL = isURL(url);
 
   if (!isValidURL) {

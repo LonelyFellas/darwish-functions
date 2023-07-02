@@ -1,1 +1,5 @@
-export { default as operateURL } from './lib/operateURL';
+import operateURL from "./lib/operateURL";
+const darwishFunctions = {
+    operateURL,
+}
+export default darwishFunctions;

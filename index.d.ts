@@ -1,9 +1,6 @@
+export = Darwish;
+export as namespace Darwish;
 declare namespace Darwish {
-  type URL =
-    | string
-    | URLSearchParams
-    | string[][]
-    | Record<string, string>
-    | undefined;
-  function operateURL(url: URL): URLSearchParams;
+  type SearchURL = DF.URL;
+  function operateURL(url: SearchURL): URLSearchParams;
 }
